@@ -1,0 +1,36 @@
+.output {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px;
+    border-color: rgb(193, 110, 112);
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: auto;
+}
+.item {
+    margin-left: 10px;
+    font-size: 30px;
+    margin-right: 50px;
+    width: 50vw;
+    height: auto;
+    overflow-x: hidden;
+}
+.item p {
+    font-size: 40px;
+}
+.button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(193, 110, 112);
+    margin-right: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.white {
+    color: white;
+}

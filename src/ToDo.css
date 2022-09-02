@@ -13,14 +13,11 @@
 }
 .item {
     margin-left: 10px;
-    font-size: 30px;
+    font-size: 1em;
     margin-right: 50px;
     width: 50vw;
     height: auto;
     overflow-x: hidden;
-}
-.item p {
-    font-size: 40px;
 }
 .button {
     width: 40px;

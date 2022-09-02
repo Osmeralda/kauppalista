@@ -8,6 +8,7 @@
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
+    font-size: 1em;
   }
   .dashboard__container {
     display: flex;
@@ -28,4 +29,22 @@
   }
   .dashboard div::first-letter {
     text-transform: uppercase;
+  }
+  @media (max-width:500px) {
+    .dashboard {
+      font-size: 0.9em;
+    }
+    .dashboard div {
+      margin-right: 0;
+    }
+  }
+  @media (max-width:400px) {
+    .dashboard {
+      font-size: 0.8em;
+    }
+  }
+  @media (max-width:356px) {
+    .dashboard {
+      font-size: 0.7em;
+    }
   }

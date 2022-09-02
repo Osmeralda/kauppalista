@@ -13,7 +13,6 @@ const Todo=({arr})=>{
     <div className='output'>
     <p className='item'>{arr.item.todo}</p>
     <button className='button' onClick={() => {deleteDoc(doc(db,'todos',arr.id))}}>{trashCan}</button>
-    
     </div>
     )
     };

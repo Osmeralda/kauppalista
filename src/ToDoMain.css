@@ -12,7 +12,7 @@
     min-height: 100vh;
 }
 .background h1 {
-    font-size: 90px;
+    font-size: 2em;
 }
 .buttonSubmit {
     border: none;
@@ -32,10 +32,14 @@
     border: solid 2px;
     border-color: rgb(193, 110, 112);
     background-color: white;
-    font-size: 30px;
+    font-size: 1em;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .lineupForm {
     display: flex;
     align-items: center;
+}
+.margin-0 {
+    margin: 0;
+    padding: 0;
 }

@@ -35,7 +35,7 @@ return (
 onChange={e=>setInput(e.target.value)} />
 <button className='buttonSubmit' onClick={addTodo}  >+</button>
 </form>
-<ul>
+<ul className='margin-0'>
 {todos.map(item=> <Todo key={item.id} arr={item} />)}
 </ul>
 </div>

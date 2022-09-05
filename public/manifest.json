@@ -3,22 +3,22 @@
   "name": "Oskarin kauppalista sovellus",
   "icons": [
     {
-      "src": "shopping-cart.png",
+      "src": "shoppingCart.png",
       "sizes": "512x512",
       "type": "image/png"
     },
     {
-      "src": "shopping-cart.png",
+      "src": "shoppingCart.png",
       "type": "image/png",
       "sizes": "512x512"
     },
     {
-      "src": "shopping-cart.png",
+      "src": "shoppingCart.png",
       "type": "image/png",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "https://kauppalista-a3dbd.web.app/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

@@ -8,8 +8,8 @@
       manifest.json provides metadata used when your web app is added to the
       homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
     -->
-    <link rel="manifest" href="%PUBLIC_URL%/shopping-cart.png">
-    <link rel="shortcut icon" href="%PUBLIC_URL%/shopping-cart.png">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/shoppingCart.png">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -21,9 +21,19 @@
     <title>Kauppalista</title>
   </head>
   <body>
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
+    <script>
+      if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function() {
+      navigator.serviceWorker.register('serviceWorker.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+      }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+      });
+      });
+      }
+      </script>
     <div id="root"></div>
     <!--
       This HTML file is a template.
